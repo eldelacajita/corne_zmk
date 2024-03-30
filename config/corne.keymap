@@ -74,5 +74,14 @@
                          &kp C_MENU  &kp SPACE  &trans    &trans  &trans  &trans
             >;
         };
+
+        Ga1 {
+            bindings = <
+&kp ESCAPE  &kp N1    &kp N2          &kp N3        &kp N4     &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp O     &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans    &trans          &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans        &kp SPACE  &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
