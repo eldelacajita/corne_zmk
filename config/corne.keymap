@@ -21,10 +21,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&lt 0 ESC   &kp W  &kp L  &kp Y  &kp P         &kp B          &kp F          &kp J      &kp O           &kp U      &kp SLASH  &to 5
-&caps_word  &kp C  &kp R  &kp S  &kp T         &kp G          &kp M          &kp N      &kp E           &kp I      &kp A      &kp ES_ACUTE
-&kp TAB     &kp Q  &kp Z  &kp V  &kp D         &kp K          &kp X          &kp H      &kp ES_N_TILDE  &kp COMMA  &kp DOT    &kp LS(LA(LC(LG(L))))
-                          &mo 1  &lt 2 DELETE  &lt 3 ENTER    &kp BACKSPACE  &kp SPACE  &mo 4
+&lt 0 ESC   &kp Z  &kp H  &kp O  &kp X         &kp DOT          &kp DQT        &kp M      &kp D  &kp B  &kp J  &kp W
+&caps_word  &kp P  &kp I  &kp E  &kp A         &kp COMMA        &sl 6          &kp T      &kp S  &kp N  &kp R  &kp K
+&kp TAB     &kp F  &kp Y  &kp Q  &kp U         &kp ES_IQMARK    &kp ES_QMARK   &kp C      &kp L  &kp V  &kp G  &kp LS(LA(LC(LG(L))))
+                          &mo 1  &lt 2 DELETE  &lt 3 ENTER      &kp BACKSPACE  &kp SPACE  &mo 4
             >;
         };
 
@@ -82,6 +82,15 @@
 &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp O     &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans    &trans          &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                   &trans        &kp SPACE  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        ENG {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
