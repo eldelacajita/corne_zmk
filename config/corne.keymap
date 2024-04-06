@@ -17,6 +17,56 @@
             bindings = <&to 5>;
             key-positions = <0 1>;
         };
+
+        Cedilla {
+            bindings = <&kp ES_C_CEDILLA>;
+            key-positions = <27 26>;
+        };
+
+        Menor {
+            bindings = <&kp ES_LESS_THAN>;
+            key-positions = <20 19>;
+        };
+
+        Mayor {
+            bindings = <&kp ES_GREATER_THAN>;
+            key-positions = <21 22>;
+        };
+
+        Backslash {
+            bindings = <&kp ES_BACKSLASH>;
+            key-positions = <19 18>;
+        };
+
+        Left_brace {
+            bindings = <&kp ES_LEFT_BRACE>;
+            key-positions = <20 32>;
+        };
+
+        Right_brace {
+            bindings = <&kp ES_RIGHT_BRACE>;
+            key-positions = <33 21>;
+        };
+
+        Aalta {
+            bindings = <&kp ES_FEMININE_ORDINAL_INDICATOR>;
+            key-positions = <13 14>;
+        };
+
+        Oalta {
+            bindings = <&kp ES_MASCULINE_ORDINAL_INDICATOR>;
+            key-positions = <9 10>;
+        };
+
+        Euro {
+            bindings = <&kp ES_EURO>;
+            key-positions = <3 2>;
+        };
+
+        Dollar {
+            bindings = <&kp ES_DOLLAR>;
+            key-positions = <14 15>;
+        };
     };
 
     keymap {
@@ -60,10 +110,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp ES_LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ES_RIGHT_PARENTHESIS    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &kp ES_MINUS             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ES_PLUS                 &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &kp ES_ASTERISK          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_EQUAL                &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                               &trans        &trans        &trans                      &trans     &trans     &trans
+&trans        &kp ES_LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ES_RIGHT_PARENTHESIS    &kp ES_PERCENT  &kp ES_AT             &kp ES_INVERTED_EXCLAMATION  &kp ES_EXCLAMATION    &kp ES_TILDE      &kp ES_NOT
+&kp ES_EQUAL  &kp ES_MINUS             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ES_PLUS                 &kp ES_SLASH    &kp ES_HASH           &kp ES_LEFT_BRACKET          &kp ES_RIGHT_BRACKET  &kp ES_AMPERSAND  &none
+&trans        &kp ES_N0                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_EQUAL                &kp ES_PIPE     &kp ES_DOUBLE_QUOTES  &kp ES_INVERTED_QUESTION     &kp ES_QUESTION       &kp ES_SQT        &kp ES_MIDDOT
+                                                     &trans        &trans        &trans                      &trans          &trans                &trans
             >;
         };
 
