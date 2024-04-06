@@ -13,59 +13,64 @@
     combos {
         compatible = "zmk,combos";
 
-        ToLayer5 {
+        to_layer_5 {
             bindings = <&to 5>;
             key-positions = <0 1>;
         };
 
-        Cedilla {
+        cedilla {
             bindings = <&kp ES_C_CEDILLA>;
             key-positions = <27 26>;
         };
 
-        Menor {
+        menor {
             bindings = <&kp ES_LESS_THAN>;
             key-positions = <20 19>;
         };
 
-        Mayor {
+        mayor {
             bindings = <&kp ES_GREATER_THAN>;
             key-positions = <21 22>;
         };
 
-        Backslash {
+        backslash {
             bindings = <&kp ES_BACKSLASH>;
             key-positions = <19 18>;
         };
 
-        Left_brace {
+        left_brace {
             bindings = <&kp ES_LEFT_BRACE>;
             key-positions = <20 32>;
         };
 
-        Right_brace {
+        right_brace {
             bindings = <&kp ES_RIGHT_BRACE>;
             key-positions = <33 21>;
         };
 
-        Aalta {
+        high_a {
             bindings = <&kp ES_FEMININE_ORDINAL_INDICATOR>;
             key-positions = <13 14>;
         };
 
-        Oalta {
+        high_o {
             bindings = <&kp ES_MASCULINE_ORDINAL_INDICATOR>;
             key-positions = <9 10>;
         };
 
-        Euro {
+        euro {
             bindings = <&kp ES_EURO>;
             key-positions = <3 2>;
         };
 
-        Dollar {
+        dollar {
             bindings = <&kp ES_DOLLAR>;
             key-positions = <14 15>;
+        };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <13 12>;
         };
     };
 
