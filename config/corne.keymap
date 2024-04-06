@@ -69,6 +69,15 @@
         };
     };
 
+    macros {
+        em_dash: em_dash {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp ES_COLON &kp ES_E &kp ES_M>;
+            label = "EM_DASH";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
