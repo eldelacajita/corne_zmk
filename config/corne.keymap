@@ -21,51 +21,61 @@
         cedilla {
             bindings = <&kp ES_C_CEDILLA>;
             key-positions = <27 26>;
+            layers = <2>;
         };
 
         menor {
             bindings = <&kp ES_LESS_THAN>;
             key-positions = <20 19>;
+            layers = <2>;
         };
 
         mayor {
             bindings = <&kp ES_GREATER_THAN>;
             key-positions = <21 22>;
+            layers = <2>;
         };
 
         backslash {
             bindings = <&kp ES_BACKSLASH>;
             key-positions = <19 18>;
+            layers = <2>;
         };
 
         left_brace {
             bindings = <&kp ES_LEFT_BRACE>;
             key-positions = <20 32>;
+            layers = <2>;
         };
 
         right_brace {
             bindings = <&kp ES_RIGHT_BRACE>;
             key-positions = <33 21>;
+            layers = <2>;
         };
 
         high_a {
             bindings = <&kp ES_FEMININE_ORDINAL_INDICATOR>;
             key-positions = <13 14>;
+            layers = <2>;
         };
 
         high_o {
             bindings = <&kp ES_MASCULINE_ORDINAL_INDICATOR>;
             key-positions = <9 10>;
+            layers = <2>;
         };
 
         euro {
             bindings = <&kp ES_EURO>;
             key-positions = <3 2>;
+            layers = <2>;
         };
 
         dollar {
             bindings = <&kp ES_DOLLAR>;
             key-positions = <14 15>;
+            layers = <2>;
         };
 
         caps_lock {
