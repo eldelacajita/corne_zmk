@@ -13,72 +13,72 @@
     combos {
         compatible = "zmk,combos";
 
-        to_layer_5 {
+        combo_to_layer_5 {
             bindings = <&to 5>;
             key-positions = <0 1>;
         };
 
-        cedilla {
+        combo_cedilla {
             bindings = <&kp ES_C_CEDILLA>;
             key-positions = <27 26>;
             layers = <2>;
         };
 
-        menor {
+        combo_smaller {
             bindings = <&kp ES_LESS_THAN>;
             key-positions = <20 19>;
             layers = <2>;
         };
 
-        mayor {
+        combo_greater {
             bindings = <&kp ES_GREATER_THAN>;
             key-positions = <21 22>;
             layers = <2>;
         };
 
-        backslash {
+        combo_backslash {
             bindings = <&kp ES_BACKSLASH>;
             key-positions = <19 18>;
             layers = <2>;
         };
 
-        left_brace {
+        combo_left_brace {
             bindings = <&kp ES_LEFT_BRACE>;
             key-positions = <20 32>;
             layers = <2>;
         };
 
-        right_brace {
+        combo_right_brace {
             bindings = <&kp ES_RIGHT_BRACE>;
             key-positions = <33 21>;
             layers = <2>;
         };
 
-        high_a {
+        combo_high_a {
             bindings = <&kp ES_FEMININE_ORDINAL_INDICATOR>;
             key-positions = <13 14>;
             layers = <2>;
         };
 
-        high_o {
+        combo_high_o {
             bindings = <&kp ES_MASCULINE_ORDINAL_INDICATOR>;
             key-positions = <9 10>;
             layers = <2>;
         };
 
-        euro {
+        combo_euro {
             bindings = <&kp ES_EURO>;
             key-positions = <3 2>;
             layers = <2>;
         };
 
-        dollar {
+        combo_dollar {
             bindings = <&kp ES_DOLLAR>;
             key-positions = <14 15>;
             layers = <2>;
         };
 
-        caps_lock {
+        combo_caps_lock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <13 12>;
         };
@@ -98,10 +98,10 @@
 
         BAS {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  Ñ  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+            // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  `   |
+            // | CAPW |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  Ñ  |  ´   |
+            // |  TAB |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  -  |  MIC |
+            //                    | MO1 | DEL | ENT |   | BAC | SPAC | MO4 |
 
             bindings = <
 &lt 0 ESC   &kp ES_Q  &kp ES_W  &kp ES_E  &kp ES_R      &kp ES_T       &kp ES_Y       &kp ES_U   &kp ES_I      &kp ES_O    &kp ES_P        &kp ES_GRAVE
@@ -113,10 +113,10 @@
 
         MED {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // |  TRAN  |  PREV  |  STOP  |  P/P   |  NEXT  |  TRAN  |   |  TRAN  |  TRAN  |  TRAN  |  TRAN  |  TRAN  |  TRAN  |
+            // |  TRAN  |  VOL↓  |  MUTE  |  MUTE  |  VOL↑  |  TRAN  |   |  TRAN  |  RCTRL |  RSHFT |  LALT  |  RGUI  |  TRAN  |
+            // |  TRAN  |  REC   |  CLIP  |  EMO   |  PRSC  |  TRAN  |   |  BT0   |  BT1   |  BT2   |  BT3   |  BT4   |  BTCR  |
+            //                            |  TRAN  |  TRAN  |  TRAN  |   |  TRAN  |  TRAN  |  TRAN  |
 
             bindings = <
 &trans  &kp C_PREV             &kp C_STOP     &kp C_PLAY_PAUSE   &kp C_NEXT       &trans    &trans        &trans             &trans           &trans        &trans          &trans
