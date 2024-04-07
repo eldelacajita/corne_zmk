@@ -135,8 +135,8 @@
 
             bindings = <
 &trans        &kp ES_LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ES_RIGHT_PARENTHESIS    &kp ES_PERCENT  &kp ES_AT             &kp ES_INVERTED_EXCLAMATION  &kp ES_EXCLAMATION    &kp ES_TILDE      &kp ES_NOT
-&kp ES_EQUAL  &kp ES_MINUS             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ES_PLUS                 &kp ES_SLASH    &kp ES_HASH           &kp ES_LEFT_BRACKET          &kp ES_RIGHT_BRACKET  &kp ES_AMPERSAND  &none
-&kp ES_SLASH  &kp ES_N0                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_ASTRK                &kp ES_PIPE     &kp ES_DOUBLE_QUOTES  &kp ES_INVERTED_QUESTION     &kp ES_QUESTION       &kp ES_SQT        &kp ES_MIDDOT
+&kp ES_SLASH  &kp ES_N0                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ES_ASTERISK             &kp ES_SLASH    &kp ES_HASH           &kp ES_LEFT_BRACKET          &kp ES_RIGHT_BRACKET  &kp ES_AMPERSAND  &none
+&kp ES_EQUAL  &kp ES_MINUS             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_PLUS                 &kp ES_PIPE     &kp ES_DOUBLE_QUOTES  &kp ES_INVERTED_QUESTION     &kp ES_QUESTION       &kp ES_SQT        &kp ES_MIDDOT
                                                      &trans        &trans        &trans                      &trans          &trans                &trans
             >;
         };
