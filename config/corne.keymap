@@ -102,6 +102,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        bhm: balanced_homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;    // <---[[moderate duration]]
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     keymap {
@@ -115,10 +124,10 @@
             //                    | MO1 | DEL | ENT |   | BAC | SPAC | MO4 |
 
             bindings = <
-&lt 0 ESC   &kp ES_Q       &kp ES_W       &kp ES_E         &kp ES_R        &kp ES_T       &kp ES_Y       &kp ES_U         &kp ES_I          &kp ES_O        &kp ES_P             &kp ES_GRAVE
-&caps_word  &hm LGUI ES_A  &hm LALT ES_S  &hm LSHIFT ES_D  &hm LCTRL ES_F  &kp ES_G       &kp ES_H       &hm RCTRL ES_J   &hm RSHIFT ES_K   &hm LALT ES_L   &hm RGUI ES_N_TILDE  &kp ES_ACUTE
-&kp TAB     &kp ES_Z       &kp ES_X       &kp ES_C         &kp ES_V        &kp ES_B       &kp ES_N       &kp ES_M         &kp ES_COMMA      &kp ES_DOT      &kp ES_MINUS         &kp LS(LA(LC(LG(L))))
-                                          &mo 1            &lt 2 DELETE    &lt 3 ENTER    &kp BACKSPACE  &kp SPACE        &mo 4
+&lt 0 ESC   &kp ES_Q        &kp ES_W        &kp ES_E          &kp ES_R         &kp ES_T       &kp ES_Y       &kp ES_U          &kp ES_I           &kp ES_O         &kp ES_P              &kp ES_GRAVE
+&caps_word  &bhm LGUI ES_A  &bhm LALT ES_S  &bhm LSHIFT ES_D  &bhm LCTRL ES_F  &kp ES_G       &kp ES_H       &bhm RCTRL ES_J   &bhm RSHIFT ES_K   &bhm LALT ES_L   &bhm RGUI ES_N_TILDE  &kp ES_ACUTE
+&kp TAB     &kp ES_Z        &kp ES_X        &kp ES_C          &kp ES_V         &kp ES_B       &kp ES_N       &kp ES_M          &kp ES_COMMA       &kp ES_DOT       &kp ES_MINUS          &kp LS(LA(LC(LG(L))))
+                                            &mo 1             &lt 2 DELETE     &lt 3 ENTER    &kp BACKSPACE  &kp SPACE         &mo 4
             >;
         };
 
