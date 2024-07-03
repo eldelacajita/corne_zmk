@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -143,10 +142,10 @@
             //                    | MO1 | DEL | ENT |   | BAC | SPAC | MO4 |
 
             bindings = <
-&lt 0 ESC   &kp ES_Q        &kp ES_W        &kp ES_E          &kp ES_R         &kp ES_T       &kp ES_Y       &kp ES_U         &kp ES_I          &kp ES_O        &kp ES_P              &kp ES_GRAVE
-&caps_word  &bhm LGUI ES_A  &bhm LALT ES_S  &bhm LSHIFT ES_D  &bhm LCTRL ES_F  &kp ES_G       &kp ES_H       &bhm RCTRL ES_J  &bhm RSHIFT ES_K  &bhm LALT ES_L  &bhm RGUI ES_N_TILDE  &kp ES_ACUTE
-&kp TAB     &kp ES_Z        &kp ES_X        &kp ES_C          &kp ES_V         &kp ES_B       &kp ES_N       &kp ES_M         &kp ES_COMMA      &kp ES_DOT      &none                 &kp LS(LA(LC(LG(ES_N_TILDE))))
-                                            &mo 1             &lt 2 DELETE     &lt 3 ENTER    &kp BACKSPACE  &kp SPACE        &mo 4
+&lt 0 ESC   &kp ES_Q        &kp ES_W        &kp ES_E          &kp ES_R         &kp ES_T        &kp ES_Y       &kp ES_U         &kp ES_I          &kp ES_O        &kp ES_P              &kp ES_GRAVE
+&caps_word  &bhm LGUI ES_A  &bhm LALT ES_S  &bhm LSHIFT ES_D  &bhm LCTRL ES_F  &kp ES_G        &kp ES_H       &bhm RCTRL ES_J  &bhm RSHIFT ES_K  &bhm LALT ES_L  &bhm RGUI ES_N_TILDE  &kp ES_ACUTE
+&kp TAB     &kp ES_Z        &kp ES_X        &kp ES_C          &kp ES_V         &kp ES_B        &kp ES_N       &kp ES_M         &kp ES_COMMA      &kp ES_DOT      &kp ES_MINUS          &kp LS(LA(LC(LG(ES_N_TILDE))))
+                                            &mo 1             &lt 2 ENTER      &lt 3 DELETE    &kp BACKSPACE  &kp SPACE        &mo 4
             >;
         };
 
@@ -173,9 +172,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans        &kp ES_LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ES_RIGHT_PARENTHESIS    &kp ES_PERCENT  &kp ES_AT             &kp ES_INVERTED_EXCLAMATION  &kp ES_EXCLAMATION    &kp ES_TILDE      &kp ES_NOT
+&kp ES_EQUAL  &kp ES_LEFT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ES_RIGHT_PARENTHESIS    &kp ES_PERCENT  &kp ES_AT             &kp ES_INVERTED_EXCLAMATION  &kp ES_EXCLAMATION    &kp ES_TILDE      &kp ES_NOT
 &kp ES_SLASH  &kp ES_N0                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ES_ASTERISK             &kp ES_SLASH    &kp ES_HASH           &kp ES_LEFT_BRACKET          &kp ES_RIGHT_BRACKET  &kp ES_AMPERSAND  &kp ES_MIDDOT
-&kp ES_EQUAL  &kp ES_MINUS             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_PLUS                 &kp ES_PIPE     &kp ES_DOUBLE_QUOTES  &kp ES_INVERTED_QUESTION     &kp ES_QUESTION       &kp ES_SQT        &kp ES_UNDER
+&kp ES_MINUS  &kp ES_COMMA             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ES_PLUS                 &kp ES_PIPE     &kp ES_DOUBLE_QUOTES  &kp ES_INVERTED_QUESTION     &kp ES_QUESTION       &kp ES_SQT        &kp ES_UNDER
                                                      &trans        &trans        &trans                      &trans          &trans                &trans
             >;
         };
